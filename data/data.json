@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "nombre": "Apple Watch SE",
+    "categoria": "watch",
+    "descripcion": "Reloj inteligente con sensor de frecuencia cardíaca, GPS y resistencia al agua.",
+    "variantes": [
+      {
+        "color": "Midnight",
+        "precio": 350000,
+        "stock": 5,
+        "imagen": "assets/apple-watch-se-midnight.jpg"
+      },
+      {
+        "color": "Starlight",
+        "precio": 350000,
+        "stock": 5,
+        "imagen": "assets/apple-watch-se-starlight.jpg"
+      },
+      {
+        "color": "Red",
+        "precio": 350000,
+        "stock": 3,
+        "imagen": "assets/apple-watch-se-red.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Apple Watch Serie 10",
+    "categoria": "watch",
+    "descripcion": "Reloj avanzado con pantalla Always-On, seguimiento de salud y conectividad LTE.",
+    "variantes": [
+      {
+        "color": "Silver",
+        "precio": 850000,
+        "stock": 4,
+        "imagen": "assets/apple-watch-serie-10-silver.jpg"
+      },
+      {
+        "color": "Graphite",
+        "precio": 850000,
+        "stock": 4,
+        "imagen": "assets/apple-watch-serie-10-graphite.jpg"
+      },
+      {
+        "color": "Gold",
+        "precio": 850000,
+        "stock": 2,
+        "imagen": "assets/apple-watch-serie-10-gold.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Apple Watch Ultra 2",
+    "categoria": "watch",
+    "descripcion": "Modelo premium para deportes extremos, con batería extendida y diseño resistente.",
+    "variantes": [
+      {
+        "color": "Natural Titanium",
+        "precio": 1500000,
+        "stock": 3,
+        "imagen": "assets/apple-watch-ultra-2-titanium.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "iPhone 15",
+    "categoria": "iphone",
+    "descripcion": "Smartphone con cámara avanzada, pantalla Super Retina XDR y chip A17 Bionic.",
+    "variantes": [
+      {
+        "color": "Blue",
+        "precio": 950000,
+        "stock": 4,
+        "imagen": "assets/iphone-15-blue.jpg"
+      },
+      {
+        "color": "Green",
+        "precio": 950000,
+        "stock": 4,
+        "imagen": "assets/iphone-15-green.jpg"
+      },
+      {
+        "color": "Yellow",
+        "precio": 950000,
+        "stock": 4,
+        "imagen": "assets/iphone-15-yellow.jpg"
+      },
+      {
+        "color": "Pink",
+        "precio": 950000,
+        "stock": 4,
+        "imagen": "assets/iphone-15-pink.jpg"
+      },
+      {
+        "color": "Black",
+        "precio": 950000,
+        "stock": 4,
+        "imagen": "assets/iphone-15-black.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "iPhone 15 Pro",
+    "categoria": "iphone",
+    "descripcion": "Versión Pro con materiales premium, mejor cámara y potencia para profesionales.",
+    "variantes": [
+      {
+        "color": "Blue Titanium",
+        "precio": 1500000,
+        "stock": 3,
+        "imagen": "assets/iphone-15-pro-blue-titanium.jpg"
+      },
+      {
+        "color": "White Titanium",
+        "precio": 1500000,
+        "stock": 3,
+        "imagen": "assets/iphone-15-pro-white-titanium.jpg"
+      },
+      {
+        "color": "Natural Titanium",
+        "precio": 1500000,
+        "stock": 3,
+        "imagen": "assets/iphone-15-pro-natural-titanium.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "iPhone 15 Pro Max",
+    "categoria": "iphone",
+    "descripcion": "El modelo más completo con pantalla grande, cámara top y batería de larga duración.",
+    "variantes": [
+      {
+        "color": "Blue Titanium",
+        "precio": 2250000,
+        "stock": 2,
+        "imagen": "assets/iphone-15-pro-max-blue-titanium.jpg"
+      },
+      {
+        "color": "White Titanium",
+        "precio": 2250000,
+        "stock": 2,
+        "imagen": "assets/iphone-15-pro-max-white-titanium.jpg"
+      },
+      {
+        "color": "Natural Titanium",
+        "precio": 12250000,
+        "stock": 1,
+        "imagen": "assets/iphone-15-pro-max-natural-titanium.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "MacBook Air",
+    "categoria": "mac",
+    "descripcion": "Portátil ultraligero con chip M2, batería de larga duración y pantalla Retina.",
+    "variantes": [
+      {
+        "color": "Midnight",
+        "precio": 1650000,
+        "stock": 3,
+        "imagen": "assets/macbook-air-midnight.jpg"
+      },
+      {
+        "color": "Starlight",
+        "precio": 1650000,
+        "stock": 3,
+        "imagen": "assets/macbook-air-starlight.jpg"
+      },
+      {
+        "color": "Space Gray",
+        "precio": 1650000,
+        "stock": 2,
+        "imagen": "assets/macbook-air-space-gray.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "MacBook Pro",
+    "categoria": "mac",
+    "descripcion": "Portátil profesional con chip M2 Pro, pantalla Liquid Retina XDR y rendimiento extremo.",
+    "variantes": [
+      {
+        "color": "Space Gray",
+        "precio": 3250000,
+        "stock": 2,
+        "imagen": "assets/macbook-pro-space-gray.jpg"
+      },
+      {
+        "color": "Silver",
+        "precio": 3250000,
+        "stock": 2,
+        "imagen": "assets/macbook-pro-silver.jpg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "iMac",
+    "categoria": "mac",
+    "descripcion": "Computadora todo en uno con pantalla Retina 5K y potencia para diseño profesional.",
+    "variantes": [
+      {
+        "color": "Blue",
+        "precio": 4000000,
+        "stock": 1,
+        "imagen": "assets/imac-blue.jpg"
+      },
+      {
+        "color": "Green",
+        "precio": 4000000,
+        "stock": 1,
+        "imagen": "assets/imac-green.jpg"
+      },
+      {
+        "color": "Pink",
+        "precio": 4000000,
+        "stock": 1,
+        "imagen": "assets/imac-pink.jpg"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "iPad Mini",
+    "categoria": "ipad",
+    "descripcion": "Tablet compacta con pantalla Retina y chip A15 Bionic, ideal para movilidad.",
+    "variantes": [
+      {
+        "color": "Space Gray",
+        "precio": 650000,
+        "stock": 5,
+        "imagen": "assets/ipad-mini-space-gray.jpg"
+      },
+      {
+        "color": "Pink",
+        "precio": 650000,
+        "stock": 5,
+        "imagen": "assets/ipad-mini-pink.jpg"
+      },
+      {
+        "color": "Purple",
+        "precio": 650000,
+        "stock": 5,
+        "imagen": "assets/ipad-mini-purple.jpg"
+      },
+      {
+        "color": "Starlight",
+        "precio": 650000,
+        "stock": 5,
+        "imagen": "assets/ipad-mini-starlight.jpg"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "iPad Air",
+    "categoria": "ipad",
+    "descripcion": "Tablet ligera con pantalla Liquid Retina y chip M1, perfecta para productividad.",
+    "variantes": [
+      {
+        "color": "Space Gray",
+        "precio": 850000,
+        "stock": 4,
+        "imagen": "assets/ipad-air-space-gray.jpg"
+      },
+      {
+        "color": "Pink",
+        "precio": 850000,
+        "stock": 4,
+        "imagen": "assets/ipad-air-pink.jpg"
+      },
+      {
+        "color": "Purple",
+        "precio": 850000,
+        "stock": 4,
+        "imagen": "assets/ipad-air-purple.jpg"
+      },
+      {
+        "color": "Starlight",
+        "precio": 850000,
+        "stock": 4,
+        "imagen": "assets/ipad-air-starlight.jpg"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "nombre": "iPad Pro",
+    "categoria": "ipad",
+    "descripcion": "Tablet profesional con pantalla Liquid Retina XDR y chip M2, rendimiento máximo.",
+    "variantes": [
+      {
+        "color": "Space Gray",
+        "precio": 1200000,
+        "stock": 3,
+        "imagen": "assets/ipad-pro-space-gray.jpg"
+      },
+      {
+        "color": "Silver",
+        "precio": 1200000,
+        "stock": 3,
+        "imagen": "assets/ipad-pro-silver.jpg"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "nombre": "AirPods 4",
+    "categoria": "airpods",
+    "descripcion": "Auriculares inalámbricos con sonido espacial y cancelación activa de ruido.",
+    "variantes": [
+      {
+        "color": "White",
+        "precio": 300000,
+        "stock": 10,
+        "imagen": "assets/airpods-4-white.jpg"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "nombre": "AirPods Pro 2",
+    "categoria": "airpods",
+    "descripcion": "Auriculares premium con cancelación de ruido avanzada y carga inalámbrica.",
+    "variantes": [
+      {
+        "color": "White",
+        "precio": 390000,
+        "stock": 8,
+        "imagen": "assets/airpods-pro-2-white.jpg"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "nombre": "AirPods Max",
+    "categoria": "airpods",
+    "descripcion": "Auriculares over-ear de alta fidelidad con sonido envolvente y materiales premium.",
+    "variantes": [
+      {
+        "color": "Space Gray",
+        "precio": 1150000,
+        "stock": 3,
+        "imagen": "assets/airpods-max-space-gray.jpg"
+      },
+      {
+        "color": "Silver",
+        "precio": 1150000,
+        "stock": 3,
+        "imagen": "assets/airpods-max-silver.jpg"
+      }
+    ]
+  }
+]

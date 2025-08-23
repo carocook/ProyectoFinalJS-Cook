@@ -9,17 +9,38 @@
   <body>
     <h1>The BigApple </h1>
 
+    <nav id="categorias">
+      <button data-categoria="mac">Mac</button>
+      <button data-categoria="ipad">iPad</button>
+      <button data-categoria="iphone">iPhone</button>
+      <button data-categoria="watch">Watch</button>
+      <button data-categoria="airpods">AirPods</button>
+    </nav>
+
     <div class="contenido">
       <section id="productos-container" class="grid-productos"></section>
 
-      <aside id="carrito-sidebar">
+      <div id="carrito-sidebar">
         <h2>🛒 Carrito</h2>
         <ul id="carrito-lista"></ul>
         <p id="total-final"></p>
-        <button id="vaciar-carrito">🗑️ Vaciar carrito</button>
-      </aside>
-    </div>
+        <button id="vaciar-carrito" class="btn-general">
+          🗑️ Vaciar carrito
+        </button>
 
+        <form id="form-checkout">
+          <h3>Checkout</h3>
+          <label>Nombre: <input type="text" id="nombre" /></label>
+          <label>Email: <input type="email" id="email" /></label>
+          <label>Dirección: <input type="text" id="direccion" /></label>
+          <button id="finalizar-compra" class="btn-general">
+            Finalizar compra
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
