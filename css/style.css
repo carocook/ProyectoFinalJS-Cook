@@ -1,0 +1,211 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+.producto {
+  border: 1px solid #ddd;
+  padding: 15px 20px;
+  width: 220px;
+  background-color: #fff;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #1d1d1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 140px;
+}
+
+.producto:hover {
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.18);
+  transform: translateY(-5px);
+}
+
+.producto h3 {
+  margin: 0 0 10px 0;
+  font-weight: 700;
+  font-size: 18px;
+  color: #111;
+}
+
+.producto .detalles {
+  font-size: 0.85rem;
+  color: #6e6e73;
+  font-style: italic;
+  margin-bottom: 15px;
+  min-height: 40px;
+}
+
+.producto p {
+  margin: 0 0 10px 0;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1d1d1f;
+}
+
+.producto button {
+  margin-top: auto;
+  padding: 10px 16px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.producto button:hover {
+  background-color: #444;
+}
+
+#carrito-lista {
+  list-style-type: none;
+  padding-left: 0;
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+
+#carrito-lista li {
+  background-color: #fff;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#carrito-lista li span.descripcion {
+  flex-grow: 1;
+}
+
+#carrito-lista button {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+#carrito-lista button.sumar-btn {
+  background-color: #28c840;
+  color: white;
+}
+#carrito-lista button.sumar-btn:hover {
+  background-color: #1e9b30;
+}
+
+#carrito-lista button.restar-btn {
+  background-color: #ffbd2e;
+  color: black;
+}
+#carrito-lista button.restar-btn:hover {
+  background-color: #cc9f26;
+}
+
+#carrito-lista button.eliminar-btn {
+  background-color: #ff5f57;
+  color: white;
+}
+#carrito-lista button.eliminar-btn:hover {
+  background-color: #cc4f47;
+}
+
+#total-final {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#vaciar-carrito {
+  padding: 8px 14px;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#vaciar-carrito:hover {
+  background-color: #333;
+}
+
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.botones-carrito {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.contenido {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+#productos-container {
+  flex: 1;
+  min-width: 0;
+}
+
+#carrito-sidebar {
+  width: 320px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-height: 80vh;
+  overflow-y: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #1d1d1f;
+}
+
+#carrito-sidebar h2 {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 24px;
+  color: #111;
+}
+
+#vaciar-carrito {
+  margin-top: 15px;
+  width: 100%;
+}
