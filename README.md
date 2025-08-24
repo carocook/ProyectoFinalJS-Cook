@@ -1,48 +1,62 @@
-#  BigApple - Carrito de Compras en JavaScript
+# BigApple - Tienda Online
 
-**BigApple** es una tienda web ficticia inspirada en productos Apple, desarrollada como práctica para aplicar conceptos fundamentales de JavaScript, manipulación del DOM, almacenamiento local, y diseño web responsivo.
-
-## 🚀 Funcionalidades
-
-- ✅ Breve catálogo de productos Apple
-- ✅ Agregar productos al carrito
-- ✅ Eliminar productos del carrito
-- ✅ Visualizar el total de la compra con y sin IVA
-- ✅ Vaciar el carrito
-- ✅ Persistencia del carrito con `localStorage`
-- ✅ Carrito fijo visible al costado
-- ✅ Diseño moderno y responsivo simulando mismos colores que maneja Apple
+BigApple es un simulador que permite a los usuarios explorar productos de Apple, agregarlos a un carrito y simular un encargue del producto que desean, generando un resumen de compra con precios e IVA.
 
 ---
 
-## 🧠 Temas aplicados en la cursada
+## 🚀 Funcionalidades principales
 
-- 🔹 Funciones constructoras (`Producto`, `Carrito`)
-- 🔹 Manipulación del DOM
-- 🔹 Manejo de eventos (`click`, `DOMContentLoaded`)
-- 🔹 `localStorage` para persistencia
-- 🔹 Arrays y métodos (`push`, `filter`, `forEach`, `find`)
-- 🔹 Diseño con Flexbox y CSS Grid
-- 🔹 Separación clara entre HTML, CSS y JS
+1. **Navegación por categorías**
+
+   - Los productos se pueden filtrar por categoría: Mac, iPad, iPhone, Watch, AirPods.
+
+2. **Carrito de compras dinámico**
+
+   - Agregar, eliminar o modificar cantidad de productos.
+   - El carrito se mantiene en **localStorage** para persistir la sesión.
+
+3. **Resumen de compra**
+
+   - Al finalizar la compra, se valida que los campos de nombre, email y dirección estén completos.
+   - Se muestra un **resumen con Subtotal, IVA y Total final** usando SweetAlert.
+
+4. **Validación de formulario**
+
+   - Si algún campo está vacío, se alerta al usuario y no se procesa la compra.
+
+5. **Interfaz amigable**
+   - Productos con imagen, descripción, stock y botón de agregar.
+   - Carrito lateral con botones para sumar, restar o eliminar productos.
+   - Total actualizado automáticamente.
 
 ---
 
-## 🖥️ Tecnologías utilizadas
+## 🛠️Tecnologías utilizadas
 
-- HTML5
-- CSS3
-- JavaScript
-- Almacenamiento local (localStorage)
-- Emojis e íconos nativos del sistema para mejorar el UX
+- **HTML5** – Estructura de la página.
+- **CSS3** – Estilos y diseño responsivo.
+- **JavaScript (ES6)** – Lógica de la tienda, manejo de carrito y validaciones.
+- **SweetAlert2** – Alertas personalizadas y resumen de compra.
+- **LocalStorage** – Persistencia del carrito entre sesiones.
+- **JSON** – Almacenamiento de información de productos.
 
 ---
 
-## 📦 Cómo ejecutar el proyecto
+## ⚙️ Instalación
 
-1. Descargá o cloná este repositorio.
-2. Abrí el archivo `index.html` en tu navegador.
-3. Agregá productos al carrito y mirá cómo se actualiza dinámicamente.
-4. Tu carrito se guarda automáticamente con `localStorage`.
+- Clonar el repositorio
+  git clone https://github.com/carocook/ProyectoFinalJS-Cook.git
+
+---
+
+## Uso
+
+1. Seleccionar una categoría desde la barra superior.
+2. Explorar los productos disponibles.
+3. Agregar productos al carrito usando los botones correspondientes.
+4. Revisar el carrito y ajustar cantidades si se desea.
+5. Completar los datos en el formulario de checkout.
+6. Hacer clic en **Finalizar compra** para ver el resumen de compra.
 
 ---
 

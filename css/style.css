@@ -26,7 +26,7 @@ h2 {
 .logo img {
   height: 120px;
   width: auto;
-  margin-left: -20px;
+  margin-left: -50px;
 }
 
 .categorias {
@@ -253,21 +253,21 @@ h2 {
   width: 100%;
 }
 
-#form-checkout {
+#formUsuario {
   display: flex;
   flex-direction: column;
   gap: 12px;
   margin-top: 20px;
 }
 
-#form-checkout h3 {
+#formUsuario h3 {
   margin-bottom: 10px;
   font-size: 18px;
   font-weight: 700;
   color: #111;
 }
 
-#form-checkout label {
+#formUsuario label {
   display: flex;
   flex-direction: column;
   font-size: 14px;
@@ -275,7 +275,7 @@ h2 {
   color: #333;
 }
 
-#form-checkout input {
+#formUsuario input {
   margin-top: 5px;
   padding: 10px;
   font-size: 15px;

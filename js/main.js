@@ -4,7 +4,7 @@ const productosContainer = document.getElementById("productos-container");
 const carritoLista = document.getElementById("carrito-lista");
 const totalFinal = document.getElementById("total-final");
 const btnVaciar = document.getElementById("vaciar-carrito");
-const formUsuario = document.getElementById("form-checkout");
+const formUsuario = document.getElementById("formUsuario");
 
 let productos = [];
 let carrito = [];
@@ -291,7 +291,7 @@ formUsuario?.addEventListener("submit", (e) => {
       toast: true,
       position: "top-end",
       icon: "success",
-      title: "Compra finalizada correctamente",
+      title: "Gracias por tu compra!",
       showConfirmButton: false,
       timer: 2000,
       timerProgressBar: true,
@@ -301,4 +301,4 @@ formUsuario?.addEventListener("submit", (e) => {
 
 // init
 cargarProductos();
-localStorage.removeItem("carrito");
+localStorage.removeItem("carrito"); // resetea al carrito para que no quede guardado en memoria algun producto de prueba anterior
