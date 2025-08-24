@@ -1,5 +1,5 @@
 // DOM
-const navbar = document.getElementById("categorias");
+const navbar = document.getElementsByClassName("categorias")[0];
 const productosContainer = document.getElementById("productos-container");
 const carritoLista = document.getElementById("carrito-lista");
 const totalFinal = document.getElementById("total-final");
@@ -158,15 +158,14 @@ function renderCarrito() {
 }
 
 // Eventos
-
-// Filtra por categoría
 navbar.addEventListener("click", (e) => {
+  // Filtra por categoría
   if (e.target.tagName === "BUTTON")
     renderProductos(e.target.dataset.categoria);
 });
 
-// Agrega producto al carrito
 productosContainer.addEventListener("click", (e) => {
+  // Agrega producto al carrito
   if (e.target.tagName !== "BUTTON") return;
 
   const id = parseInt(e.target.dataset.id);
