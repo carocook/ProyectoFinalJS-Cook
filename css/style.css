@@ -80,7 +80,13 @@ h2 {
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.18);
   transform: translateY(-5px);
 }
-
+.producto img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
 .producto h3 {
   margin: 0 0 10px 0;
   font-weight: 700;
@@ -98,8 +104,8 @@ h2 {
 
 .producto p {
   margin: 0 0 10px 0;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 300;
+  font-size: 11px;
   color: #1d1d1f;
 }
 
